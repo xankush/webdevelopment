@@ -1,5 +1,6 @@
-<img src ="/images.png" alt ="github" style="text-align: center;">
-this is repo is for you to learn how to contribute in github and start making projects
+<img src ="/images.png" alt ="github" style="text-align: center; position:relative;
+right:50vw"><br>
+this is repo is for you to learn how to contribute in github and start making projects<br>
 team members :  brajesh , munasif , hema;
 
 #### Step 1: Forking the repository :
