@@ -1,4 +1,4 @@
-<img src ="/images.png" alt ="github">
+<img src ="/images.png" alt ="github" style="text-align: center;">
 this is repo is for you to learn how to contribute in github and start making projects
 team members :  brajesh , munasif , hema;
 
