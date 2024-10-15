@@ -1,5 +1,5 @@
-<img src ="/images.png" alt ="github" width = "500px" style="text-align: center; position:relative;
-right:200px"><br>
+<img src ="/images.png" alt ="github" width = "600px" style="text-align: center; position:relative;
+right:90px"><br>
 this is repo is for you to learn how to contribute in github and start making projects<br>
 team members :  brajesh , munasif , hema;
 
