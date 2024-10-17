@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class ="calculator">
-    <h3>Simple calculator </h3>
+    <h2>Calculator </h2>
     <div id="outputscreen">
         <textarea name="outputscreen" id="output"  ></textarea>
     </div>
@@ -18,19 +21,19 @@
         <input type="button" value="1" id="1" onclick="input_value(this.value)">
         <input type="button" value="2" id="2" onclick="input_value(this.value)">
         <input type="button" value="3" id ="3" onclick="input_value(this.value)">
+        <input type="button" value="c" id="reset">
+        <input type="button" value="=" class = "move" id="equals">
         <input type="button" value="4" id="4"  onclick="input_value(this.value)">
         <input type="button" value="5" id="5"  onclick="input_value(this.value)">
         <input type="button" value="6" id="6" onclick="input_value(this.value)">
-        <input type="button" value="7" id="7" onclick="input_value(this.value)">
-        <input type="button" value="8" id="8" onclick="input_value(this.value)">
-        <input type="button" value="9" id="9" onclick="input_value(this.value)">
-        <input type="button" value="0" id="0" onclick="input_value(this.value)">
-        <input type="button" value="+"  id  ="sum" onclick="operator(this.value)">
-        <input type="button" value="="  id="equals">
-        <input type="button" value="reset" id="reset">
-        <input type="button" value="*" id="multiply" onclick="operator(this.value)">
         <input type="button" value="/" id="divide" onclick="operator(this.value)">
         <input type="button" value="-" id="minus" onclick="operator(this.value)">
+        <input type="button" value="7" id="7" class = "move" onclick="input_value(this.value)">
+        <input type="button" value="8" id="8" class = "move" onclick="input_value(this.value)">
+        <input type="button" value="9" id="9" class = "move" onclick="input_value(this.value)">
+        <input type="button" value="*" id="multiply" class = "move" onclick="operator(this.value)">
+        <input type="button" value="+"  id  ="sum"  onclick="operator(this.value)">
+        <input type="button" value="0" id="zero" class = "move" onclick="input_value(this.value)">
 
     </div>
 </div>

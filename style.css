@@ -2,24 +2,102 @@
     margin: 0px;
     padding: 0px;
 }
+
+ 
+h2 {
+  margin-top: 5px;
+  margin-bottom: 1px;
+  font-size: 37px;
+  color: #000000e0;
+ font-family: "Noto Serif Oriya", serif;
+  line-height: 1.2;
+  font-optical-sizing: auto;
+  font-weight: 30;
+  font-style: normal;
+
+}
 body{
- background-color:#c8c9d37d;
-  padding:21px 0px 0px 165px;
+ background-color:#ffffff;
+  padding:49px 0px 0px 409px;
 }
 div>textarea{
-  color: blue;    
+  color: #ffffff;   
+  background-color: #1d4463e3; 
   text-align: right;
-  resize: none;
   display: inline;
+  resize: none;
+  height :55px;
+  width: 210px;
+  font-size: 40px;
+  border-radius: 10px;
+}
+.keypad{
+  padding: 10px;
 }
 .calculator{
 
   display:inline-block;
   text-align: center;
-  background-color: azure;
+  background-color: #d2d7d7;
   margin: 10px;
-  padding: 0px 10px 0px;
-  width  : 12%;
+  padding: 11px 10px 0px;
+  width  : 235px;
+  height : 390px;
   box-shadow: 5px 5px 15px 5px grey;
-  border-radius: 2%;
+  border-radius: 11%;
+}
+
+input{
+color: #040404;  
+background-color: #b7adad63;
+box-shadow:5px 4px 5px 0px grey;
+border-width: 1px;
+font-size: 35px;
+padding: 5px;
+margin: 4px;
+border-radius: 10px;
+}
+
+#reset{
+  margin: -1px;
+  padding: 2px;
+  /* width: 81px;
+  height: 49px; */
+  /* position: relative;
+  top: 10px; 
+  bottom: 5px;
+  left: 5px;
+  right:5px; */
+}
+#minus{
+  width: 29px;
+  height: 47px;
+  text-align: center;
+}
+#equals{
+  width: 29px;
+  height: 47px;
+  position: relative;
+  top: 0px;
+  margin: 10px;
+}
+#divide{
+  width: 29px;
+  
+}
+/* #sum{
+  position: relative;
+  bottom: -3px;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  
+} */
+
+
+#reset{
+  width: 29px;
+  height: 47px;
+  position: relative;
+  left: 2px;
 }
