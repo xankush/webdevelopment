@@ -7,11 +7,6 @@ var equal = document.getElementById("equals");
 var p = document.getElementById("output");
 var reset = document.getElementById("reset");
 
-
-
-
-
-
 reset.addEventListener("click", function () {
     p.innerHTML = "";
     a = "";
@@ -25,10 +20,10 @@ reset.addEventListener("click", function () {
 
 equal.addEventListener("click", function(){
     c =  calculation();
+    a = c;
+    b =""; 
     p.innerHTML = c;
 });
-
-
 
 function input_value(m) {
     if (a == "") {
@@ -52,6 +47,7 @@ function input_value(m) {
     console.log("b =" + b);
 }
 
+// if a operator is click then this function will be run   
 function operator(s) {
     if (sign == "" && a!="") {
         sign = s;
@@ -67,11 +63,17 @@ function operator(s) {
             console.log("a = " + a);
             console.log("b =" + b);
             console.log("sign =" + sign);
-
+        } 
+        else{
+            sign = s;
+            p.innerHTML = a+s;
+            console.log("sign =" + sign);
 
         }
+
     }
 }
+
 function calculation(){
     switch (sign) {
         case "+":

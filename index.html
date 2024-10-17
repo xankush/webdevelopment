@@ -9,11 +9,12 @@
 </head>
 
 <body>
-    <h3>for simple addition of two number </h3>
+    <div class ="calculator">
+    <h3>Simple calculator </h3>
     <div id="outputscreen">
-        <textarea name="outputscreen" id="output" rows="1" onclick="">o</textarea>
+        <textarea name="outputscreen" id="output"  ></textarea>
     </div>
-    <div >
+    <div class = "keypad">
         <input type="button" value="1" id="1" onclick="input_value(this.value)">
         <input type="button" value="2" id="2" onclick="input_value(this.value)">
         <input type="button" value="3" id ="3" onclick="input_value(this.value)">
@@ -32,6 +33,7 @@
         <input type="button" value="-" id="minus" onclick="operator(this.value)">
 
     </div>
+</div>
     
     <script src="script.js"></script>
 </body>
