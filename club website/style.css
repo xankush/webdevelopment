@@ -4,7 +4,16 @@
     scroll-behavior: smooth;
     font-family: "Noto Sans Elbasan", sans-serif;
 }
-#logo{
+body{
+    min-height: 900px;
+    background-image: url("mohammad-rahmani-0JvWk8ox_rQ-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    /* grid-template-rows: auto 1fr; */
+    position: relative;
+}
+#club_logo{
     width: 230px;
     height: 50px;
     display: inline-block;
@@ -71,15 +80,6 @@ a{
     border-radius: 5px;
     width: 100px;
 }
-body{
-    min-height: 900px;
-    background-image: url("mohammad-rahmani-0JvWk8ox_rQ-unsplash.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    position: relative;
-}
 #homepage{
     grid-row: 1;
     display: flex;
@@ -92,8 +92,7 @@ border-radius: 4px;
 margin: auto;
 
 }
-#homelogo{
-    
+#center_div{    
     position: absolute;
     z-index: 3;
     height: 400px;
@@ -113,10 +112,10 @@ h1{
     color:rgb(201, 200, 200);
     font-size: 42px ;
     align-self: center;
-     
+    margin-top: 30px; 
 }
 div>p{
-    
+    margin-top: 30px;
     font-weight: 400;
     font-style: none;
     color: rgb(214, 213, 213);
@@ -126,23 +125,49 @@ div>p{
     word-spacing: 0.2em; 
     line-height: 1.5;
 }
+#learn_more{
+    height: 45px;
+    width: 110px;
+    /* border: 2px solid black; */
+    border: none;
+    box-shadow: 0px 0px 0px 0px;
+    /* background-color: dimgray; */
+/* border: 2px solid red; */
+background-color: blueviolet;
+color: whitesmoke;
+    border-radius: 20px 20px 20px 20px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    justify-self:flex-end;
+    /* text-align: center; */
+    font-weight: bold;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    /* color: whitesmoke; */
+    /* background: none; */
+
+}
 #col_logo{
-   height: 150px;
-   width: 150px;
+   height: 100px;
+   width: 100px;
    border-radius: 50%;
    background-image: url(OIP.jpeg);
-   background-size: 150px 150px;
-position: absolute;
-bottom: 2px;
-z-index: 10;
+   background-size: 100px 100px;
+   position: absolute; 
+   bottom: 2px;
+   z-index: 10;
+   margin-bottom: 20px;
 }
 
 footer{
-    grid-row: 2;
-    height: 300px;
+    
+    height: 200px;
     background-color: rgb(41, 41, 41);
     position: relative;
     display: flex;
-    align-self:baseline;
+    align-content:baseline;
     
 }
