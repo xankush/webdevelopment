@@ -12,6 +12,7 @@ body{
     display: grid;
     /* grid-template-rows: auto 1fr; */
     position: relative;
+    z-index: 10;
 }
 #club_logo{
     width: 230px;
@@ -101,7 +102,6 @@ margin: auto;
     background-color: rgba(128, 128, 128, 0.329) ;
     margin: auto;
     backdrop-filter: blur(5px);
-    margin-top: 100px;
     display: grid;
     flex-direction: column;
     justify-content: center;
@@ -162,12 +162,13 @@ color: whitesmoke;
    margin-bottom: 20px;
 }
 
-footer{
-    
-    height: 200px;
+footer{ 
+    height: 150px;
+    width: 100%;
     background-color: rgb(41, 41, 41);
-    position: relative;
+    position: absolute;
+    z-index: 25;
     display: flex;
+    bottom: 0;
     align-content:baseline;
-    
 }
