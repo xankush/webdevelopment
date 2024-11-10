@@ -25,7 +25,7 @@ body {
     width: 100%;
     z-index: 999;
     backdrop-filter: blur(10px);
-    background-color: rgba(107, 107, 107, 0.493);
+    background-color: rgba(0, 0, 0, 0.493);
     /* background-color:aquamarine ; */
 }
 
@@ -102,21 +102,34 @@ a {
 #center_div {
     position: absolute;
     z-index: 3;
-    height: 400px;
-    width: 900px;
+    height: 450px;
+    width: 950px;
     border-radius: 4px;
-    background-color: rgba(128, 128, 128, 0.329);
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(0, 0, 0, 0.308));
     margin: auto;
     backdrop-filter: blur(5px);
-    display: grid;
-    flex-direction: column;
-    justify-content: center;
+    display: flex;
+    flex-direction:row;
+    justify-content:  space-around;
     margin-bottom: 100px;
 
+    
+}
+#brandlogo{
+    margin-top: 30px;
+    width: 250px;
+    height: 350px;
+    /* background-color: #050404; */
+    background-image: url(brand.png);
+    background-repeat: no-repeat;
+    background-size: 270px 340px;   
+    
+    
 }
 
 h1 {
-    color: rgb(201, 200, 200);
+    width: 100px;
+    color: #f8e16c;
     font-size: 42px;
     align-self: center;
     margin-top: 30px;
@@ -177,7 +190,7 @@ div>p {
 footer {
     height: 150px;
     width: 100%;
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(0, 0, 0);
     position: absolute;
     z-index: 25;
     display: flex;
