@@ -1,12 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     font-family: "Noto Sans Elbasan", sans-serif;
 }
-body{
+
+body {
     min-height: 900px;
-    background-image: url("mohammad-rahmani-0JvWk8ox_rQ-unsplash.jpg");
+    background-image: url("backimage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
@@ -14,11 +15,25 @@ body{
     position: relative;
     z-index: 10;
 }
-#club_logo{
+
+#header {
+
+    display: flex;
+    height: 55px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    background-color: rgba(107, 107, 107, 0.493);
+    /* background-color:aquamarine ; */
+}
+
+#club_logo {
     width: 230px;
     height: 50px;
     display: inline-block;
-    background-image: url(logo3.png);
+    background-image: url(clublogo.png);
     background-size: 222px;
     background-repeat: no-repeat;
     margin-right: 100px;
@@ -31,34 +46,22 @@ body{
     /* align-items: center; */
 }
 
-#header{
-    
-    display: flex; 
-    height: 55px;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 999;
-    backdrop-filter: blur(10px);
-    background-color: rgba(107, 107, 107, 0.493);
-    /* background-color:aquamarine ; */
-}
-
-ul{
+ul {
     position: relative;
     left: 220px;
     margin-top: 15px;
     list-style-type: none;
-    
+
 }
-li{
+
+li {
     display: inline;
-    
+
 }
 
 
-a{
-    
+a {
+
     scroll-behavior: smooth;
     margin-top: 25px;
     margin-right: 100px;
@@ -66,9 +69,10 @@ a{
     color: black;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    
+
 }
-#signin{
+
+#signin {
     background-color: #068932;
     color: white;
     padding: 10px;
@@ -81,40 +85,44 @@ a{
     border-radius: 5px;
     width: 100px;
 }
-#homepage{
+
+#homepage {
     grid-row: 1;
     display: flex;
     justify-content: center;
     position: relative;
-height: 500px;
-width: 500px;
-border-radius: 4px;
-/* display: inline; */
-margin: auto;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    /* display: inline; */
+    margin: auto;
 
 }
-#center_div{    
+
+#center_div {
     position: absolute;
     z-index: 3;
     height: 400px;
     width: 900px;
     border-radius: 4px;
-    background-color: rgba(128, 128, 128, 0.329) ;
+    background-color: rgba(128, 128, 128, 0.329);
     margin: auto;
     backdrop-filter: blur(5px);
     display: grid;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 100px;
-    
+
 }
-h1{
-    color:rgb(201, 200, 200);
-    font-size: 42px ;
+
+h1 {
+    color: rgb(201, 200, 200);
+    font-size: 42px;
     align-self: center;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
-div>p{
+
+div>p {
     margin-top: 30px;
     font-weight: 400;
     font-style: none;
@@ -122,26 +130,27 @@ div>p{
     width: 600px;
     justify-self: center;
     font-size: 22px;
-    word-spacing: 0.2em; 
+    word-spacing: 0.2em;
     line-height: 1.5;
 }
-#learn_more{
+
+#learn_more {
     height: 45px;
     width: 110px;
     /* border: 2px solid black; */
     border: none;
     box-shadow: 0px 0px 0px 0px;
     /* background-color: dimgray; */
-/* border: 2px solid red; */
-background-color: blueviolet;
-color: whitesmoke;
+    /* border: 2px solid red; */
+    background-color: blueviolet;
+    color: whitesmoke;
     border-radius: 20px 20px 20px 20px;
     padding: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 15px;
-    justify-self:flex-end;
+    justify-self: flex-end;
     /* text-align: center; */
     font-weight: bold;
     margin-right: 100px;
@@ -150,19 +159,22 @@ color: whitesmoke;
     /* background: none; */
 
 }
-#col_logo{
-   height: 100px;
-   width: 100px;
-   border-radius: 50%;
-   background-image: url(OIP.jpeg);
-   background-size: 100px 100px;
-   position: absolute; 
-   bottom: 2px;
-   z-index: 10;
-   margin-bottom: 20px;
+
+#col_logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(169, 165, 135);
+    background-image: url(col_logo.png);
+    background-size: 100px 100px;
+    position: absolute;
+    bottom: 2px;
+    right: 4px;
+    z-index: 10;
+    margin-bottom: 15px;
 }
 
-footer{ 
+footer {
     height: 150px;
     width: 100%;
     background-color: rgb(41, 41, 41);
@@ -170,5 +182,5 @@ footer{
     z-index: 25;
     display: flex;
     bottom: 0;
-    align-content:baseline;
+
 }
