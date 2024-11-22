@@ -8,6 +8,12 @@
         *{
             margin: 0;padding: 0;
         }
+        h1{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+        }
         #aside{
             display: flex;
             /* flex-direction: column; */
@@ -98,15 +104,21 @@
             resize: none;
             /* display: table-cell; 
             vertical-align: middle; */
-            /* font-size: 20px; */
+            font-family: sans-serif;
+
+            color: antiquewhite;
+            font-size: 20px;
             margin: 10px;
             padding: 9px;
-            color: white;
-            margin-top: 50px;
+            color: whitesmoke;
+            /* margin-top: 40px; */
             background-color: rgb(32, 44, 51);
             border-radius: 10px 10px 10px 10px;
             border: none;
-            text-align: center;
+            /* text-align: center; */
+            height: 40px;
+            width: 380px;
+
         }
     </style>
 </head>
@@ -123,7 +135,12 @@
 
         </aside>
         <aside>
-            <textarea name="searchbox" id="searchbox" cols="47" ></textarea>
+            <h1>Chats</h1>
+            <!-- <input searchbox" id="searchbox" cols="47" ></textarea> -->
+             <input type="search" id="searchbox" placeholder="search"  ols="47">
+             <div id="op1"></div>
+             <div id="op2"></div>
+             <div id="op3"></div>
         </aside>
     </div>
     
